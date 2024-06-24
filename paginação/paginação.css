@@ -1,0 +1,57 @@
+body {
+    background-color: rgb(199, 154, 241);
+    font-family: Georgia, 'Times New Roman', Times, serif, sans-serif;
+    display: block;
+    flex-direction:row;
+    text-align: center;
+    justify-content: center;
+    width:auto;
+    height:auto;
+}
+
+h1{
+    border-style: groove;
+    margin: auto;
+    width: 40%;
+    color:rgb(58, 5, 107);
+    border-color: rgb(181, 114, 243);
+    border-width: 4px;
+    display: block;
+}
+
+#gif-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    display: block;
+}
+
+#gif-container img {
+    margin-left:auto;
+    margin-right: auto;
+    width: 350px;
+    height: 350px;
+    object-fit: cover;
+    border-style: solid;
+    border-color: rgb(0, 0, 0);
+    border-radius: 20px;
+    border-width: 2px;
+}
+
+.paginação {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+   margin: auto;
+   width: fit-content;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: rgb(171, 44, 255);
+    color: rgb(0, 0, 0); 
+    text-align: center;
+    justify-content: center;
+}
